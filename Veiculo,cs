@@ -1,0 +1,19 @@
+class Veiculo
+{
+    public string Marca;
+    public string Modelo;
+    public int Ano;
+
+    public Veiculo()
+    {
+        Marca = "Desconhecido";
+        Modelo = "Desconhecido";
+        Ano = 0;
+    }
+    public Veiculo(string marca, string modelo, int ano)
+    {
+        Marca = marca;
+        Modelo = modelo;
+        Ano = ano;
+    }
+}
